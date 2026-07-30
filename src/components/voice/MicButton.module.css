@@ -1,0 +1,16 @@
+.btn {
+  width: 84px;
+  height: 84px;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 32px;
+  color: #fff;
+  background: radial-gradient(circle at 35% 30%, #FFB088, var(--coral-deep));
+  box-shadow: var(--shadow-btn);
+  transition: background 0.3s;
+}
+
+.listening {
+  background: radial-gradient(circle at 35% 30%, #8FE0B7, var(--leaf-deep));
+}

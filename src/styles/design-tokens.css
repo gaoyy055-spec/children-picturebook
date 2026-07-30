@@ -1,0 +1,56 @@
+/* 设计令牌 — 儿童向色彩体系 */
+:root {
+  /* 主色调 */
+  --coral: #FF8A5B;
+  --coral-deep: #F76A3C;
+  --leaf: #4FBE87;
+  --leaf-deep: #37A06E;
+  --sky-accent: #6FB3F2;
+  --gold: #FFC857;
+
+  /* 背景 */
+  --bg-sky-top: #CFEFFF;
+  --bg-sky-bottom: #FFF6DE;
+  --bg-paper: #FFF9EC;
+  --bg-card: #FFFDF7;
+  --bg-soft: #EAF6FF;
+
+  /* 文字 */
+  --ink: #3E3226;
+  --ink-soft: #7A6B58;
+  --ink-light: #4A4A4A;
+
+  /* 阴影 */
+  --shadow-soft: 0 18px 40px -12px rgba(94, 66, 32, 0.28);
+  --shadow-card: 0 8px 20px -8px rgba(94, 66, 32, 0.25);
+  --shadow-btn: 0 10px 20px -8px rgba(0, 0, 0, 0.25);
+  --shadow-popup: 0 -10px 30px rgba(0, 0, 0, 0.25);
+
+  /* 圆角 */
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 22px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* 字号 */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 22px;
+  --text-title: clamp(24px, 5vw, 34px);
+
+  /* 间距 */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 14px;
+  --space-lg: 20px;
+  --space-xl: 28px;
+
+  /* 触控 */
+  --touch-min: 44px;
+  --touch-core: 60px;
+  --touch-mic: 84px;
+  --touch-gap: 16px;
+}

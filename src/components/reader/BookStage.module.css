@@ -1,0 +1,28 @@
+.stage {
+  position: relative;
+  background: var(--bg-paper);
+  border-radius: 32px;
+  padding: 14px;
+  box-shadow: var(--shadow-soft);
+  border: 6px solid #fff;
+  outline: 3px dashed rgba(255, 138, 91, 0.35);
+  outline-offset: -14px;
+}
+
+.sceneWrap {
+  position: relative;
+  border-radius: 22px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.scene {
+  width: 100%;
+  height: auto;
+}
+
+.scene svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,29 @@
+.pill {
+  position: fixed;
+  bottom: 118px;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  z-index: 19;
+  background: #fff;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-weight: 800;
+  font-size: 13px;
+  box-shadow: 0 8px 18px -6px rgba(0, 0, 0, 0.2);
+  color: var(--leaf-deep);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.25s;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+.text {
+  white-space: nowrap;
+}

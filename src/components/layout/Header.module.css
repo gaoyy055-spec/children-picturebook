@@ -1,0 +1,32 @@
+.header {
+  text-align: center;
+  padding: 8px 0 18px;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mascot {
+  font-size: 30px;
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.15));
+}
+
+.title {
+  font-family: 'Nunito', sans-serif;
+  font-size: var(--text-title);
+  font-weight: 800;
+  color: var(--coral-deep);
+  margin: 0;
+  text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.6);
+}
+
+.subtitle {
+  color: var(--ink-soft);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  margin: 4px 0 0;
+}
